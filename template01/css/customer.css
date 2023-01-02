@@ -18,16 +18,25 @@ body{
 }
 /*Criado as variaveis*/
 header{
-    margin: auto;
-    background-color: var(--cor-segudaria);
-    min-width: 650px;
-    max-width: 100%;
     color: #fff;
-    margin-bottom: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: var(--cor-terciaria);
+    margin-bottom: 20px;
 }
-header nav a{
-    color: #fff;
+nav{
+    position: relative;
+    float: right;
+    margin-right: 462px;
+}
+nav a {
     text-decoration: none;
+    padding: 20px;
+    color: #fff;
+
+}
+.logo{
+    padding-left: 480px;
 }
 :root{
     /*Fontes*/
@@ -43,7 +52,6 @@ header nav a{
 }
 main{
     margin: auto;
-
     min-width: 650px;
     max-width: 1000px;
     background-color: #fff;
