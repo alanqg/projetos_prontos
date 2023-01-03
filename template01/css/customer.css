@@ -20,9 +20,36 @@ p{
     font-family: var(--font-paragrafo);
     line-height: 1.8em;
 }
+header
+{
+    padding-top: 40px;
+    height: 160px;
+    width: 100%;
+    background-color: var(--cor1);
+    color: #fff;
+}
+nav{
+    position: relative;
+    float: right;
+    padding-right: 150px;
+}
+nav a {
+    padding: 35px;
+    color: #fff;
+    font-family: var(--font-titulo);
+    font-size: 35px;
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+}
+.logo h1{
+    margin-left: 150px;
+}
 
 /*Variáveis*/
 :root{
+    /*cores do site*/
     --cor1: #325916;
     --cor2: #608246;
     --cor3: #9FAC64;
