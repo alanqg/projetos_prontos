@@ -1,0 +1,37 @@
+/*Desenvolvido por: AqGoes*/
+/*Paleta de core -->  https://www.colourlovers.com/palette/4892372/Cabbage */
+/*Fonte titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+/*Fonte paragrafo*/
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/*Estilos Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor5);
+}
+h1, h2, h3, h4{
+    font-family: var(--font-titulo);
+}
+p{
+    font-family: var(--font-paragrafo);
+    line-height: 1.8em;
+}
+
+/*Variáveis*/
+:root{
+    --cor1: #325916;
+    --cor2: #608246;
+    --cor3: #9FAC64;
+    --cor4: #CFCA78;
+    --cor5: #F4F0C3;
+
+    /*Fonte dos titulos*/
+    --font-titulo: 'Yeon Sung', cursive;
+    --font-paragrafo:  'Secular One', sans-serif;
+}
+
+
