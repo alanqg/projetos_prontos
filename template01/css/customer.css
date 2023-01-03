@@ -24,19 +24,19 @@ header{
     background-color: var(--cor-terciaria);
     margin-bottom: 20px;
 }
+header h1{
+    padding-top: 80px;
+    margin-left: 80px;
+}
 nav{
-    position: relative;
+    margin-right: 60px;
     float: right;
-    margin-right: 462px;
 }
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    color: #fff;
-
-}
-.logo{
-    padding-left: 480px;
+nav a{
+    margin: 35px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: bold;
 }
 :root{
     /*Fontes*/
