@@ -1,0 +1,25 @@
+/*
+
+Desenvolvido por --> AqGoes
+Paleta de cores --> https://www.colourlovers.com/palette/4891924/Pluviophile
+Fontes --> https://fonts.google.com/specimen/Unbounded?preview.text=AqGoes&preview.text_type=custom ( Titulos )
+
+*/
+
+/*Estilos globais*/
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0
+}
+:root{
+    /*Fontes titulos*/
+    --font-titulos: 'Unbounded', cursive;
+}
+
+/*Estilos dos titulos*/
+h1, h2, h3{
+    font: var(--font-titulos);
+}
+/*Google fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;700;800;900&display=swap');
