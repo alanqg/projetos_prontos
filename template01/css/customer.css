@@ -1,4 +1,5 @@
 /*Desenvolvido por: AqGoes*/
+
 /*Paleta de core -->  https://www.colourlovers.com/palette/4892372/Cabbage */
 /*Fonte titulo*/
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
@@ -78,6 +79,26 @@ nav a:hover{
     color: #fff;
 }
 
+/*Corpo do site*/
+main{
+    width: 850px;
+    height: 900px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+}
+
+/*Rodapé*/
+footer{
+    margin-top: 10px;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    background-color: var(--cor1);
+    text-align: center;
+    font-family: var(--font-titulo);
+}
 /*Variáveis*/
 :root{
     /*cores do site*/
@@ -93,3 +114,24 @@ nav a:hover{
 }
 
 
+/*Responsividade do site*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    nav {
+        margin-top: 70px;
+        float:   right;
+    }
+    nav a{
+        padding: 10px;
+        margin: 5px;
+        color: #fff;
+        font-family: var(--font-titulo);
+        font-size: 15px;
+        box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
+        border-radius: 5px;
+        text-decoration: none;
+       
+    }
+}
