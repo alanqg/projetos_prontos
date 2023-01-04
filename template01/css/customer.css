@@ -11,33 +11,11 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: var(--cor5);
 }
-header{
-    width: 100%;
-    height: 120px;
-    background-color: var(--cor1);
-}
-div.logo{
-    padding-top: 50px;
-}
-.logo a{
-  
-    color: #fff;
-}
-nav{
-    padding-right: 150px;
-    float: right;
-}
 
-h1, h2, h3, h4{
-    font-family: var(--font-titulo);
-}
-p{
-    font-family: var(--font-paragrafo);
-    line-height: 1.8em;
-}
 /*Variáveis*/
 :root{
     /*cores do site*/
